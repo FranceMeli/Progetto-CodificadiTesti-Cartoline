@@ -71,7 +71,7 @@
             c'è stato e ci sono state delle persone che lo hanno abitato e che sono presenti ancora oggi proprio grazie a ciò che, per fortuna, ci è pervenuto. Queste cartoline ci descrivono infatti la corrispondenza tra Giovanni e Giuseppe con Oliva,
             utilizzando un linguaggio per lo più semplice e assai corretto, molto simile a quello corrente, tranne per alcuni dettagli, per esempio la data introdotta da "li", opportunamente codificati per distiguere la forma passata e quella attuale.
             Per rendere più semplice la lettura delle cartoline abbiamo introdotto dei collegamenti testo-immagine tramite l'uso di dell'elemento "facsmile" ed abbiamo reso possibile la lettura delle stampe presenti sulla cartolina, poco leggibili se non si pone molta attenzione.
-           Inoltre, trattandosi di testi scritti andavo molte volte a capo, per il poco spazio reso disponibile dalla cartolina, abbiamo selezionato tramite l'elemento lb ogni inizio di riga.</p>
+           Inoltre, trattandosi di testi scritti in cui si andava molte volte a capo, per il poco spazio reso disponibile dalla cartolina, abbiamo selezionato tramite l'elemento lb ogni inizio di riga.</p>
         </encodingDesc>
     </teiHeader>
     <xi:include href="Cartolina067.xml" />
