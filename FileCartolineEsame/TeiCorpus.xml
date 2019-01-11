@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prog.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM 'myTEI.dtd'>
+<teiCorpus 
+    xmlns:xi="http://www.w3.org/2001/XInclude">  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Cartoline ad Oliva Turtura</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascrizione realizzata da</resp>
+                    <name xml:id="FM">Francesco Melighetti</name>
+                    <name xml:id="AL">Arianna Lisi</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date when="2018">2018</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codifica realizzata da</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                    <!--<name xml:id="XZ1">XZ</name>-->
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!--Cartoline risalenti al periodo della Prima Guerra Mondiale-->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>La codifica che abbiamo eseguito ha cercato di evidenziare aspetti legati alle date, ai luoghi e alle persone citate nelle cartoline, in quanto spesso il passato più remoto ci sembra qualcosa di immateriale ed indefinito, ma 
+            c'è stato e ci sono state delle persone che lo hanno abitato e che sono presenti ancora oggi proprio grazie a ciò che, per fortuna, ci è pervenuto. Queste cartoline ci descrivono infatti la corrispondenza tra Giovanni e Giuseppe con Oliva,
+            utilizzando un linguaggio per lo più semplice e assai corretto, molto simile a quello corrente, tranne per alcuni dettagli, per esempio la data introdotta da "li", opportunamente codificati per distiguere la forma passata e quella attuale.
+            Per rendere più semplice la lettura delle cartoline abbiamo introdotto dei collegamenti testo-immagine tramite l'uso di dell'elemento "facsmile" ed abbiamo reso possibile la lettura delle stampe presenti sulla cartolina, poco leggibili se non si pone molta attenzione.
+           Inoltre, trattandosi di testi scritti andavo molte volte a capo, per il poco spazio reso disponibile dalla cartolina, abbiamo selezionato tramite l'elemento lb ogni inizio di riga.</p>
+        </encodingDesc>
+    </teiHeader>
+    <xi:include href="Cartolina067.xml" />
+    <xi:include href="Cartolina187.xml" />
+    <xi:include href="Cartolina197.xml" />
+</teiCorpus>
