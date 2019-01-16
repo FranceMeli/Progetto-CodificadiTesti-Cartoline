@@ -228,7 +228,6 @@
         <surface n="1" xml:id="fronte" corresp="#fronte187">
             <!-- Fronte -->
             <graphic url="img/187F.jpg" width="527px" height="825px" xml:id="fronte2"/>
-            <zone points=" 32,804 162,804 158,824 32,826 " rendition="Line" xml:id="C2fronte_01"/>
             <!--firma Mastroianni-->
         </surface>
         
