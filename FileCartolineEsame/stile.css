@@ -106,7 +106,7 @@ img {
     width: 49%;
 }
 
-#ScritteR3 {
+.ScritteR3 {
     line-height: 0.2;
 }
 
@@ -116,11 +116,11 @@ img {
    margin:10%;
 }
 
-#div_fronte{
+.div_fronte{
     padding: 30px;
 }
 
-#div_retro {
+.div_retro {
     padding: 30px;
 }
 
@@ -199,7 +199,7 @@ img {
     line-height: 1;
 }
 
-#p_francobolli, #p_stampe {
+#p_francobolli, .p_stampe {
     margin-top: 5px;
     padding: 10px;
     background-color: #FFFAF4;
